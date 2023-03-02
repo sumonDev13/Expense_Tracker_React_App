@@ -1,0 +1,176 @@
+/* Sidebar CSS  */
+.sidebar-container{
+    height: 130vh;
+    background-color: #FFFBF3;
+    display: flex;
+  }
+  .sidebar-container>div:nth-child(1){
+    padding: 15px;
+    border-right: 1px solid #CECECE;
+  }
+  .sidebar-container>div:nth-child(1) ul{
+    padding: 0;
+  }
+  .sidebar-container>div:nth-child(1) ul li{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .sidebar-container>div:nth-child(1) ul li .active{
+    width: 50px;
+    height: 50px;
+    display: block;
+    background: #FFC248;
+    border-radius: 50%;
+    color: #fff;
+    position: relative;
+  }
+  .sidebar-container>div:nth-child(1) ul li .active::before{
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 55px;
+    background: #FFC248;
+    right: -20px;
+    top: -3px;
+    border-radius: 10px;
+  }
+  .sidebar-container>div:nth-child(1) ul li a{
+    color: #130F26;
+  }
+  .sidebar-container>div:nth-child(1) ul li svg{
+    font-size: 18px;
+    margin-top: 16px;
+  }
+  .dashboard-content{
+    display: flex;
+  }
+  .logo img{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    width: 60px;
+  }
+  .sidebar-container>div:nth-child(2){
+    padding: 30px 15px;
+    width: 300px;
+    border-right: 1px solid #CECECE;
+  }
+  .expense-manager{
+    margin-top: 20px;
+  }
+  .expense-manager > h5 {
+    color: #452F02;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 0;
+  
+  }
+  .expense-manager > span,.current-balance > div>div> span {
+    color: #452F02;
+    font-size: 12px
+  }
+  .current-balance{
+    background: #FFC248;
+    box-shadow: 0px 3px 75px rgba(0, 0, 0, 0.1);
+    border-radius: 24px;
+    margin-top: 70px;
+    padding: 10px 25px;
+    position: relative;
+  }
+  .current-balace-bg{
+    position: absolute;
+    top: -10px;
+    right: -20px;
+    height: 100%;
+  }
+  .current-balace-bg img{
+    height: 100%;
+  border-radius: 0px 24px 24px 0px;
+  }
+  .current-balance > div{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .current-balance > div> img{
+    width: 50px;
+    margin-right: 20px;
+  }
+  .current-balance p, .latest-activity > span{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #130F26;
+    font-weight: 500;
+    font-size: 12px;
+  }
+  .current-balance > div>div> h4{
+    font-size: 20px;
+    color: #130F26;
+  }
+  .latest-activity{margin-top: 40px;}
+  .latest-activity > span{
+    color:#EB001B;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  .activity > div{}
+  .todays-activity > div:nth-child(1)>span, .yesterday-activity> div:nth-child(1)>span{
+    text-align: center;
+    display: block;
+    color: #767676;
+    font-size: 12px;
+  }
+  .todays-activity >div:nth-child(1){
+    border-top: 1px solid #CECECE;
+    border-bottom: 1px solid #CECECE;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .todays-activity >div:nth-child(2){
+    margin-top: 10px;
+  }
+  .activity > div>div>h5{
+    color: #EB001B;
+    margin-right: 40px;
+  }
+  .activity > div>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .activity > div>div>div{
+    display: flex;
+    align-items: center;
+  }
+  .activity > div>div>div>svg{
+    color: #fff;
+    background: #5251FA;
+    border-radius: 50%;
+    font-size: 16px;
+    padding: 10px;
+  }
+  .activity > div>div>div>h6{
+    color: #452F02;
+    margin-left: 15px;
+  }
+  .yesterday-activity{
+    margin-top: 25px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #CECECE;
+  }
+  .logout-icon{
+    text-align: center;
+    background: #FFC248;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: 80px;
+  }
+  .logout-icon svg{
+    font-size: 18px;
+    color: #fff;
+    margin-top: 15px;
+  }
+  
